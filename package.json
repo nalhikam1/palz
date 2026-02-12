@@ -1,10 +1,15 @@
-   {
-     "name": "palz",
-     "version": "1.0.0",
-     "description": "",
-     "main": "index.js",
-     "scripts": {
-       "dev": "your-dev-command-here"
-     },
-     "dependencies": {}
-   }
+{
+  "name": "palz",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@builder.io/sdk": "^2.0.0",
+    "astro": "^4.0.0"
+  }
+}
